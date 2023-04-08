@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.devicemanagement"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_database] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+12-->[:react-native-firebase_database] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_database] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+13-->[:react-native-firebase_database] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+14
+15    <application
+15-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:5:5-24:19
+16        android:name="com.devicemanagement.MainApplication"
+16-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:6:7-38
+17        android:allowBackup="false"
+17-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:10:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /Users/h481452/.gradle/caches/transforms-3/3c178461f96884367004b56ef82718bc/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:8:7-41
+20        android:label="@string/app_name"
+20-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:7:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:9:7-52
+22        android:theme="@style/AppTheme" >
+22-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:11:7-38
+23        <activity
+23-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:12:7-23:18
+24            android:name="com.devicemanagement.MainActivity"
+24-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:13:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+25-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:15:9-118
+26            android:exported="true"
+26-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:18:9-32
+27            android:label="@string/app_name"
+27-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:14:9-41
+28            android:launchMode="singleTask"
+28-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:16:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:17:9-51
+30            <intent-filter>
+30-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:19:9-22:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:20:13-65
+31-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:20:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:21:13-73
+33-->/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/src/main/AndroidManifest.xml:21:23-70
+34            </intent-filter>
+35        </activity>
+36
+37        <meta-data
+37-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+38            android:name="app_data_collection_default_enabled"
+38-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+39            android:value="true" />
+39-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+40
+41        <service
+41-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+43            android:directBootAware="true"
+43-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+44            android:exported="false" >
+44-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+45            <meta-data
+45-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+46-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-database:20.1.0] /Users/h481452/.gradle/caches/transforms-3/0aa4233c3709fd9483c11cb882d6818b/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+49                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+49-->[com.google.firebase:firebase-database:20.1.0] /Users/h481452/.gradle/caches/transforms-3/0aa4233c3709fd9483c11cb882d6818b/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-database:20.1.0] /Users/h481452/.gradle/caches/transforms-3/0aa4233c3709fd9483c11cb882d6818b/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+51        </service>
+52
+53        <provider
+53-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+54            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+54-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+55            android:authorities="com.devicemanagement.reactnativefirebaseappinitprovider"
+55-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+56            android:exported="false"
+56-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+57            android:initOrder="99" />
+57-->[:react-native-firebase_app] /Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+58
+59        <activity
+59-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+60            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+60-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+61            android:excludeFromRecents="true"
+61-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+64        <!--
+65            Service handling Google Sign-In user revocation. For apps that do not integrate with
+66            Google Sign-In, this service will never be started.
+67        -->
+68        <service
+68-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+69            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+69-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+70            android:exported="true"
+70-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+71            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+71-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+72            android:visibleToInstantApps="true" />
+72-->[com.google.android.gms:play-services-auth:20.3.0] /Users/h481452/.gradle/caches/transforms-3/3cb23aa38ac014e65e06f75b037e3604/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.0.1] /Users/h481452/.gradle/caches/transforms-3/1befe31ec23e216396d9b12195d614b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.0.1] /Users/h481452/.gradle/caches/transforms-3/1befe31ec23e216396d9b12195d614b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.0.1] /Users/h481452/.gradle/caches/transforms-3/1befe31ec23e216396d9b12195d614b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.0.1] /Users/h481452/.gradle/caches/transforms-3/1befe31ec23e216396d9b12195d614b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+78
+79        <provider
+79-->[com.google.firebase:firebase-common:20.3.2] /Users/h481452/.gradle/caches/transforms-3/b1f0fbb2efe8fe3be234193dd49bd930/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+80            android:name="com.google.firebase.provider.FirebaseInitProvider"
+80-->[com.google.firebase:firebase-common:20.3.2] /Users/h481452/.gradle/caches/transforms-3/b1f0fbb2efe8fe3be234193dd49bd930/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+81            android:authorities="com.devicemanagement.firebaseinitprovider"
+81-->[com.google.firebase:firebase-common:20.3.2] /Users/h481452/.gradle/caches/transforms-3/b1f0fbb2efe8fe3be234193dd49bd930/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:20.3.2] /Users/h481452/.gradle/caches/transforms-3/b1f0fbb2efe8fe3be234193dd49bd930/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+83            android:exported="false"
+83-->[com.google.firebase:firebase-common:20.3.2] /Users/h481452/.gradle/caches/transforms-3/b1f0fbb2efe8fe3be234193dd49bd930/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+84            android:initOrder="100" />
+84-->[com.google.firebase:firebase-common:20.3.2] /Users/h481452/.gradle/caches/transforms-3/b1f0fbb2efe8fe3be234193dd49bd930/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:18.1.0] /Users/h481452/.gradle/caches/transforms-3/ae4112fb0f3836b20480b0b5eafdd2bf/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:18.1.0] /Users/h481452/.gradle/caches/transforms-3/ae4112fb0f3836b20480b0b5eafdd2bf/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:18.1.0] /Users/h481452/.gradle/caches/transforms-3/ae4112fb0f3836b20480b0b5eafdd2bf/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+92            android:authorities="com.devicemanagement.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/h481452/.gradle/caches/transforms-3/38495ac4abbc404a2aad907c0586dd39/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/h481452/.gradle/caches/transforms-3/3444ba5c663a767529ed6a23e8f01ca0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/h481452/.gradle/caches/transforms-3/3444ba5c663a767529ed6a23e8f01ca0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/h481452/.gradle/caches/transforms-3/3444ba5c663a767529ed6a23e8f01ca0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+100        </provider>
+101    </application>
+102
+103</manifest>

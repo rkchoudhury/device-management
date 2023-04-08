@@ -1,0 +1,7 @@
+#Tue Apr 04 08:12:31 IST 2023
+base.1=/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/h481452/new-workspace/poc/hondevicemanagement/deviceManagement/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
